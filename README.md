@@ -1,3 +1,4 @@
+![LearnJavaMemshellFromZero](https://socialify.git.ci/W01fh4cker/LearnJavaMemshellFromZero/image?description=1&descriptionEditable=%E3%80%90%E5%8E%9F%E5%88%9B%E3%80%91%E5%AE%8C%E5%85%A8%E9%9B%B6%E5%9F%BA%E7%A1%80%E4%BB%8E0%E5%88%B01%E6%8E%8C%E6%8F%A1Java%E5%86%85%E5%AD%98%E9%A9%AC&forks=1&issues=1&language=1&logo=https%3A%2F%2Fs2.loli.net%2F2022%2F06%2F25%2FgUAh2V5CiD96y8G.jpg&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1)  
 # 一、前言
 
 &ensp;&ensp;&ensp;&ensp;之前写的零基础学`Fastjson`的文章反响很不错，很多师傅在公众号后台和我的微信私聊我表示感谢，其实也没啥，大家都是零基础过来的。网上的文章多而杂，并且只有少部分文章是配图清楚、文字描述清晰的，很多时候新手学着学着可能就因为作者的某一个地方没有描述清楚而不知其所指，非常痛苦；亦或是文章面向对象不同，前置知识不扎实导致很多东西无法理解，这些痛点我都曾经历过。但是随着看过的代码逐渐增多，见识逐渐丰富，调试的次数越多，对各种问题的处理就会越得心应手。  
