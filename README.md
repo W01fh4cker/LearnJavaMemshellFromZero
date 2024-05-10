@@ -3256,8 +3256,8 @@ modifersField.setInt(f, f.getModifiers() & Modifier.FINAL);
         out.println(output);
         out.flush();
         out.close();
-        this.getNext().invoke(request, response);
       }
+      this.getNext().invoke(request, response);
     }
   };
 %>
