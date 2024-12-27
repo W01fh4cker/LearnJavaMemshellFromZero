@@ -902,7 +902,7 @@ public class GreetingRouter {
 
 随便访问个路由。例如`http://127.0.0.1:9191/customers/stream`：
 
-![](https://w01fh4cker-img-bed.oss-cn-hangzhou.aliyuncs.com/image/customers_stream.gif)
+![](https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/customers_stream.gif)
 
 ## 2.11 Spring MVC介绍
 
@@ -1628,7 +1628,7 @@ public class GreetingFilter implements WebFilter {
 
 那现在就是从内存中找到`DefaultWebFilterChain`的位置，然后一步步反射就行。这里直接使用工具`https://github.com/c0ny1/java-object-searcher`，克隆下来该项目，放到`idea`中`mvn clean install`：
 
-![image-20240126134339217](https://w01fh4cker-img-bed.oss-cn-hangzhou.aliyuncs.com/image/image-20240126134339217.png)
+![image-20240126134339217](https://raw.githubusercontent.com/W01fh4cker/blog_image/main/image/image-20240126134339217.png)
 
 然后把生成的这个`java-object-searcher-0.1.0.jar`放到我们的`WebFluxMemoryShellDemo`项目的Project `Structure`中的`Libraries`中：
 
@@ -1859,7 +1859,7 @@ host.getPipeline().getFirst().invoke(request, response);
 
 这不正是我们需要的吗？我们去看看它是在哪儿实现的，直接在`addValve`函数处`Ctrl+H`找继承该接口的类，可可以看到是在`org.apache.catalina.core.StandardPipeline`中：
 
-![image-20240130155445230](https://w01fh4cker-img-bed.oss-cn-hangzhou.aliyuncs.com/image/image-20240130155445230.png)
+![](https://raw.githubusercontent.com/W01fh4cker/blog_image/main/image/image-20240130155445230.png)
 
 但是问题就来了，我们无法直接获取到这个`StandardPipeline`，而我们能直接获取到的是`StandardContext`，那就去看看`StandardContext.java`中有没有获取`StandardPipeline`的方法。
 
@@ -2175,7 +2175,7 @@ public class TestServlet extends HttpServlet {
 
 在我之前提到过的讲tomcat架构的基础文章（`https://blog.nowcoder.net/n/0c4b545949344aa0b313f22df9ac2c09`），有详细地讲述`ProtocolHandler`组件中的`EndPoint`部件，如果之前没有看完整地可以再去看下。里面这张图画的很好，我这里作引用：
 
-![](https://w01fh4cker-img-bed.oss-cn-hangzhou.aliyuncs.com/image/NioEndPoint.jpg)
+![](https://cdn.jsdelivr.net/gh/W01fh4cker/blog_image@main/NioEndPoint.jpg)
 
 #### 2.15.2.1 Endpoint五大组件
 
