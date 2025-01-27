@@ -79,7 +79,7 @@
 # 二、前置知识
 
 本篇文章除特殊说明外，使用的是`jdk1.8.0_202`+ `tomcat 9.0.85`，后者下载地址为：
-> https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85-windows-x64.zip。
+> https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85-windows-x64.zip
 
 ## 2.1 Servlet容器与Engine、Host、Context和Wrapper
 
