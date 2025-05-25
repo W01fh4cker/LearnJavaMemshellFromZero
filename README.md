@@ -85,7 +85,7 @@
 
 这部分我找了好久，终于在一大堆高深/垃圾的文章中邂逅了一篇写的还算简明扼要易于理解的文章。
 
->  原文地址：https://www.maishuren.top/archives/tomcat-zhong-servlet-rong-qi-de-she-ji-yuan-li
+>  原文地址：https://www.maishuren.top/posts/tomcat/2-tomcat中sevlet容器的设计原理
 
 这里组合引用其原文，简单概括，就是：
 
@@ -120,7 +120,7 @@
 
 关于上图中的连接器的设计，可以继续参考该作者的博文：
 
-> https://www.maishuren.top/archives/yi-bu-bu-dai-ni-le-jie-tomcat-zhong-de-lian-jie-qi-shi-ru-he-she-ji-de
+> https://www.maishuren.top/posts/tomcat/1-tomcat中的连接器是如何设计的
 
 写到后面之后我又发现了一篇写的极佳的文章，贴在这儿供大家参考，讲的是关于`tomcat`架构的原理解析：
 
